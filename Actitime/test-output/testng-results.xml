@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[database disConnected Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Is Succesfull]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+    <line>
+      <![CDATA[database disConnected Successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-03-31T20:38:47 IST" name="Default suite" finished-at="2023-03-31T20:39:14 IST" duration-ms="26800">
+    <groups>
+    </groups>
+    <test started-at="2023-03-31T20:38:47 IST" name="Default test" finished-at="2023-03-31T20:39:14 IST" duration-ms="26800">
+      <class name="com.Actitime.TestScripts.TaskTest">
+        <test-method is-config="true" signature="databaseconnection()[pri:0, instance:com.Actitime.TestScripts.TaskTest@2f7298b]" started-at="2023-03-31T20:38:47 IST" name="databaseconnection" finished-at="2023-03-31T20:38:47 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[database disConnected Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- databaseconnection -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.Actitime.TestScripts.TaskTest@2f7298b]" started-at="2023-03-31T20:38:47 IST" name="launchBrowser" finished-at="2023-03-31T20:39:02 IST" duration-ms="14703" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Actitime.TestScripts.TaskTest@2f7298b]" started-at="2023-03-31T20:39:02 IST" name="login" finished-at="2023-03-31T20:39:02 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Is Succesfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createCustomer()[pri:0, instance:com.Actitime.TestScripts.TaskTest@2f7298b]" started-at="2023-03-31T20:39:02 IST" name="createCustomer" finished-at="2023-03-31T20:39:11 IST" duration-ms="8855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Actitime.TestScripts.TaskTest@2f7298b]" started-at="2023-03-31T20:39:11 IST" name="logout" finished-at="2023-03-31T20:39:14 IST" duration-ms="2988" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Actitime.TestScripts.TaskTest@2f7298b]" started-at="2023-03-31T20:39:14 IST" name="closeBrowser" finished-at="2023-03-31T20:39:14 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="dataBaseDisconnected()[pri:0, instance:com.Actitime.TestScripts.TaskTest@2f7298b]" started-at="2023-03-31T20:39:14 IST" name="dataBaseDisconnected" finished-at="2023-03-31T20:39:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[database disConnected Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dataBaseDisconnected -->
+      </class> <!-- com.Actitime.TestScripts.TaskTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
